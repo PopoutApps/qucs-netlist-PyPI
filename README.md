@@ -1,4 +1,5 @@
 # qucs-netlist
+This is an older version, on PyPI.
 
 Converts Qucs schematic files into a form suitable for a PCB design application. It uses a Qucs schematic file to add components to a netlist file. If there is also a Qucs .sim file with the same name but the .sim extension, it will use that to create the nets, if not it will attempt to run Qucs to create a .sim file, if Qucs has been installed that should succeed, but it won't work from qucs-s. If no .sim file was present and can't be created, the output netlist file will contain components but no nets.
 
